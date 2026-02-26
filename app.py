@@ -191,3 +191,5 @@ def final_prediction():
     text += "\n\n\n💡 " + random.choice(quotes)
     text += f"\n\n\nThank you for using the chatbot. Wishing you good health, {session['name']}!"
     return jsonify(reply=text)
+if __name__ == "__main__":
+    app.run()

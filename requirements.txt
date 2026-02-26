@@ -1,0 +1,8 @@
+flask
+flask-session
+pandas
+numpy
+scikit-learn
+nltk
+gunicorn
+flask-session
